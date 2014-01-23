@@ -5,20 +5,6 @@
     padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-body {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 /* Custom page header */
 .header {
     border-bottom: 1px solid #e5e5e5;
@@ -32,13 +18,6 @@ body {
     padding-bottom: 19px;
 }
 
-/* Custom page footer */
-.footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
-}
-
 .container-narrow > hr {
     margin: 30px 0;
 }
@@ -49,18 +28,51 @@ body {
     border-bottom: 1px solid #e5e5e5;
 }
 
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
 }
 
-/* Supporting marketing content */
-.marketing {
-    margin: 40px 0;
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+  /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+    padding: 0 0 60px;
 }
 
-.marketing p + h4 {
-    margin-top: 28px;
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+code {
+    font-size: 80%;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -81,9 +93,5 @@ body {
     .header {
         margin-bottom: 30px;
     }
-    
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
 }
+

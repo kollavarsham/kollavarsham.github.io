@@ -320,18 +320,18 @@ module.exports = function (grunt) {
 
         // Deploy to master branch on GitHub
         buildcontrol: {
-          options: {
-            dir: 'dist',
-            commit: true,
-            push: true,
-            message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-          },
-          pages: {
             options: {
-              remote: 'git@github.com:kollavarsham/kollavarsham.github.io.git',
-              branch: 'master'
+                dir: 'dist',
+                commit: true,
+                push: true,
+                message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+            },
+            pages: {
+                options: {
+                    remote: 'git@github.com:kollavarsham/kollavarsham.github.io.git',
+                    branch: 'master'
+                }
             }
-          }
         }
     });
 

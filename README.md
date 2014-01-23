@@ -1,7 +1,7 @@
 kollavarsham.github.io
 ======================
 
-Source files to the kollavarsham.org website
+This branch has the source files to the kollavarsham.org website, deployed via GitHub Pages on the `master` branch
 
 ### Contributing
 

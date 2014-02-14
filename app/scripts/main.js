@@ -1,1 +1,5 @@
-console.log('\'Allo \'Allo!');
+!function ($) {
+  $(function () {
+    window.prettyPrint && prettyPrint()
+  })
+}(window.jQuery)

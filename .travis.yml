@@ -2,6 +2,12 @@ branches:
   only:
     - source
 language: node_js
+before_install:
+  # Install Grunt, other npm dependencies and bower packages
+  - npm install -g grunt-cli
+  - npm install -g bower
+  - npm install
+  - bower install
 before_script: 
   # Set the git config stuff, so Git stops yelling at us
   - git config --global user.name "The Kollavarsham Team (via Travis-CI)"
@@ -14,10 +20,6 @@ before_script:
   - chmod 600 ~/.ssh/id_rsa
   # Disable SSH server fingerprint verification
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-  # Install Grunt, other npm dependencies and bower packages
-  - npm install -g grunt-cli
-  - npm install
-  - bower install
 script:
   # Deploy the site
   - grunt deploy

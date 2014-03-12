@@ -1,4 +1,4 @@
-kollavarsham.github.io
+kollavarsham.github.io [![Build Status](https://travis-ci.org/kollavarsham/kollavarsham.github.io.png?branch=source)](https://travis-ci.org/kollavarsham/kollavarsham.github.io)
 ======================
 
 This branch has the source files to the kollavarsham.org website, deployed via GitHub Pages on the `master` branch

@@ -281,6 +281,7 @@ module.exports = function (grunt) {
               'CNAME',
               'LICENSE.txt',
               'sitemap.xml',
+              'keybase.txt',
               'images/{,*/}*.webp',
               '{,*/}*.html',
               'styles/fonts/{,*/}*.*',

@@ -174,7 +174,7 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
   }
 }
 
-/* Responsive: Portrait tablets and up */
+/* Responsive: Portrait tablets */
 @media screen and (min-width : 768px) {
   .container {
     max-width : 730px;
@@ -203,3 +203,9 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
 
 }
 
+/* Responsive: Large desktops */
+@media screen and (min-width : 1048px) {
+  .container {
+    max-width : 1024px;
+  }
+}

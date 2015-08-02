@@ -36,6 +36,7 @@
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  font-size     : 21px;
   text-align    : center;
   border-bottom : 1px solid #e5e5e5;
 }
@@ -109,12 +110,12 @@ code {
 .sidebar-section header {
   font-size     : larger;
   border-bottom : #ccc 0.1em dotted;
-  margin-bottom: 10px;
+  margin-bottom : 10px;
 }
 
 pre.prettyprint {
-  white-space: nowrap;
-  overflow-x: scroll;
+  white-space : nowrap;
+  overflow-x  : scroll;
 }
 
 li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {

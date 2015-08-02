@@ -19,14 +19,14 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     // Project settings
-    yeoman          : {
+    yeoman : {
       // Configurable paths
       app  : 'app',
       dist : 'dist'
     },
 
     // Watches files for changes and runs tasks based on the changed files
-    watch           : {
+    watch : {
       js         : {
         files   : ['<%= yeoman.app %>/scripts/{,*/}*.js'],
         tasks   : ['jshint'],
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
     },
 
     // The actual grunt server settings
-    connect         : {
+    connect : {
       options    : {
         port       : 9000,
         livereload : 35729,
@@ -94,7 +94,7 @@ module.exports = function (grunt) {
     },
 
     // Empties folders to start fresh
-    clean           : {
+    clean : {
       dist   : {
         files : [
           {
@@ -111,7 +111,7 @@ module.exports = function (grunt) {
     },
 
     // Make sure code styles are up to par and there are no obvious mistakes
-    jshint          : {
+    jshint : {
       options : {
         jshintrc : '.jshintrc',
         reporter : require('jshint-stylish')
@@ -125,7 +125,7 @@ module.exports = function (grunt) {
     },
 
     // Mocha testing framework configuration options
-    mocha           : {
+    mocha : {
       all : {
         options : {
           run  : true,
@@ -135,7 +135,7 @@ module.exports = function (grunt) {
     },
 
     // Add vendor prefixed styles
-    autoprefixer    : {
+    autoprefixer : {
       options : {
         browsers : ['last 1 version']
       },
@@ -160,7 +160,7 @@ module.exports = function (grunt) {
     },
 
     // Renames files for browser caching purposes
-    rev             : {
+    rev : {
       dist : {
         files : {
           src : [
@@ -176,7 +176,7 @@ module.exports = function (grunt) {
     // Reads HTML for usemin blocks to enable smart builds that automatically
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
-    useminPrepare   : {
+    useminPrepare : {
       options : {
         dest : '<%= yeoman.dist %>'
       },
@@ -184,7 +184,7 @@ module.exports = function (grunt) {
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
-    usemin          : {
+    usemin : {
       options : {
         assetsDirs : ['<%= yeoman.dist %>']
       },
@@ -193,7 +193,7 @@ module.exports = function (grunt) {
     },
 
     // The following *-min tasks produce minified files in the dist folder
-    imagemin        : {
+    imagemin : {
       dist : {
         files : [
           {
@@ -205,7 +205,7 @@ module.exports = function (grunt) {
         ]
       }
     },
-    svgmin          : {
+    svgmin   : {
       dist : {
         files : [
           {
@@ -217,7 +217,7 @@ module.exports = function (grunt) {
         ]
       }
     },
-    htmlmin         : {
+    htmlmin  : {
       dist : {
         options : {
           collapseBooleanAttributes : true,
@@ -267,7 +267,7 @@ module.exports = function (grunt) {
     // },
 
     // Copies remaining files to places other tasks can use
-    copy            : {
+    copy : {
       dist   : {
         files : [
           {
@@ -301,19 +301,23 @@ module.exports = function (grunt) {
 
     // Generates a custom Modernizr build that includes only the tests you
     // reference in your app
-    modernizr       : {
-      devFile    : '<%= yeoman.app %>/bower_components/modernizr/modernizr.js',
-      outputFile : '<%= yeoman.dist %>/bower_components/modernizr/modernizr.js',
-      files      : [
-        '<%= yeoman.dist %>/scripts/{,*/}*.js',
-        '<%= yeoman.dist %>/styles/{,*/}*.css',
-        '!<%= yeoman.dist %>/scripts/vendor/*'
-      ],
-      uglify     : true
+    modernizr : {
+      dist : {
+        devFile    : '<%= yeoman.app %>/bower_components/modernizr/modernizr.js',
+        outputFile : '<%= yeoman.dist %>/bower_components/modernizr/modernizr.js',
+        files      : {
+          src : [
+            '<%= yeoman.dist %>/scripts/{,*/}*.js',
+            '<%= yeoman.dist %>/styles/{,*/}*.css',
+            '!<%= yeoman.dist %>/scripts/vendor/*'
+          ]
+        },
+        uglify     : true
+      }
     },
 
     // Run some tasks in parallel to speed up build process
-    concurrent      : {
+    concurrent : {
       server : [
         'copy:styles'
       ],
@@ -328,7 +332,7 @@ module.exports = function (grunt) {
     },
 
     // Deploy to master branch on GitHub
-    buildcontrol    : {
+    buildcontrol : {
       options : {
         dir     : 'dist',
         commit  : true,
@@ -368,7 +372,7 @@ module.exports = function (grunt) {
       grunt.task.run([
         'clean:server',
         'concurrent:test',
-        'autoprefixer',
+        'autoprefixer'
       ]);
     }
 

@@ -12,27 +12,27 @@
   <meta name="keywords"
         content="kollavarsham, malayalam calendar, malayalam era, gregorian calendar, hindu calendar, solar months, sidereal calendar, chingam, kanni, thulam, vrischikam, dhanu, makaram, kumbham, meenam, medam, idavam, mithunam, karkitakam">
   <!--Apple Touch Icons-->
-  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png"/>
-  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png"/>
-  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png"/>
-  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png"/>
-  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png"/>
-  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-60x60.png"/>
-  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-120x120.png"/>
-  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-76x76.png"/>
-  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-152x152.png"/>
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-152x152.png" />
   <!-- Twitter Summary Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@kollavarsham">
   <meta name="twitter:url" content="http://kollavarsham.org/javascript.html">
-  <meta name="twitter:title" content="Kollavarsham NodeJS">
+  <meta name="twitter:title" content="Kollavarsham JS">
   <meta name="twitter:description" content="Open Source JavaScript libraries for Kolla Varsham a.k.a. Malayalam Era calendar.">
   <meta name="twitter:image" content="http://kollavarsham.org/static/images/logo.png">
   <!--Windows 8 Tile Icons-->
-  <meta name="msapplication-square70x70logo" content="images/icons/smalltile.png"/>
-  <meta name="msapplication-square150x150logo" content="images/icons/mediumtile.png"/>
-  <meta name="msapplication-wide310x150logo" content="images/icons/widetile.png"/>
-  <meta name="msapplication-square310x310logo" content="images/icons/largetile.png"/>
+  <meta name="msapplication-square70x70logo" content="images/icons/smalltile.png" />
+  <meta name="msapplication-square150x150logo" content="images/icons/mediumtile.png" />
+  <meta name="msapplication-wide310x150logo" content="images/icons/widetile.png" />
+  <meta name="msapplication-square310x310logo" content="images/icons/largetile.png" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
@@ -103,7 +103,7 @@
   <div class="container">
 
     <div class="header">
-      <h1><img id="nodejs-logo" src="images/nodejs-logo.png" alt="kollavarsham node.js"> <em>kollavarsham node.js</em></h1>
+      <h1><img id="nodejs-logo" src="images/nodejs-logo.png" alt="kollavarsham js"> <em>kollavarsham js</em></h1>
 
       <p class="lead"></p>
     </div>
@@ -111,7 +111,8 @@
     <div class="col-sm-8 article">
       <h4>Installation</h4>
 
-      <p>The JavaScript library has been implemented on the <a href="http://nodejs.org/">node.js</a> platform and has been published to <a href="https://www.npmjs.org/package/kollavarsham">the npm (node package manager) registry</a>.</p>
+      <p>The JavaScript library has been implemented on the <a href="http://nodejs.org/">node.js</a> platform and has been published to <a
+        href="https://www.npmjs.org/package/kollavarsham">the npm (node package manager) registry</a>.</p>
 
       <p>It could be used as a cross-platform command line application (CLI) when installed globally like this:</p>
 
@@ -147,20 +148,23 @@ var kollavarshamDate = kollavarsham.fromGregorianDate(new Date(2014, 1, 14));
 
       <h4>Current Status</h4>
 
-      <p>Currently the library is in pre-alpha state.</p>
+      <p>Currently the library is in beta state and most of the features are working as expected (a notable exception being the ability to
+        convert a Kollavarsham date into a Gregorian date).</p>
 
-      <p>It is in active development now and we are hoping to publish an alpha soon to the <a href="https://www.npmjs.org/">npm registry</a>.
-      </p>
+      <p>The <a href="/calendar" title="Interactive Kollavarsham Calendar">calendar</a> for instance, is an interactive, AngularJS single
+        page application (<a href="https://github.com/kollavarsham/calendar">source</a>) that gets the Kollavarsham dates from a RESTful
+        service, implemented in NodeJS/ExpressJS (<a href="https://github.com/kollavarsham/calendar-api">source</a>), using this
+        kollavarsham.js module.</p>
 
       <h4>Fork us on GitHub!</h4>
 
-      <p>Fork us on GitHub and start contributing - <a href="https://github.com/kollavarsham/kollavarsham-nodejs">kollavarsham-nodejs
+      <p>Fork us on GitHub and start contributing - <a href="https://github.com/kollavarsham/kollavarsham-js">kollavarsham-js
         repository</a>.</p>
 
       <h4>API Documentation</h4>
 
       <p>Check out the evolving API documentation that is generated from the source using <a href="http://yui.github.io/yuidoc/">YUIDoc</a>
-        here: <a href="http://kollavarsham.org/kollavarsham-nodejs">API documentation</a>.</p>
+        here: <a href="http://kollavarsham.org/kollavarsham-js">API documentation</a>.</p>
 
       <h4>Gratitude</h4>
 
@@ -178,17 +182,18 @@ var kollavarshamDate = kollavarsham.fromGregorianDate(new Date(2014, 1, 14));
       <div class="sidebar-section">
         <header>Contributors</header>
         <p><a href="https://github.com/arunkutty">Arun N. Kutty</a></p>
+
         <p><a href="https://github.com/floydpink">Hari Menon</a></p>
       </div>
 
       <div class="sidebar-section">
         <header>API Documentation</header>
-        <p><a href="http://kollavarsham.org/kollavarsham-nodejs">kollavarsham-nodejs</a></p>
+        <p><a href="http://kollavarsham.org/kollavarsham-js">kollavarsham-js</a></p>
       </div>
 
       <div class="sidebar-section">
         <header>Fork Us on GitHub!</header>
-        <p><a href="https://github.com/kollavarsham/kollavarsham-nodejs">kollavarsham-nodejs</a></p>
+        <p><a href="https://github.com/kollavarsham/kollavarsham-js">kollavarsham-js</a></p>
 
         <p><a href="https://github.com/kollavarsham/kollavarsham-java">kollavarsham-java</a></p>
       </div>
@@ -202,7 +207,9 @@ var kollavarshamDate = kollavarsham.fromGregorianDate(new Date(2014, 1, 14));
 <div id="footer">
   <div class="container">
     <p class="text-muted pull-right">
-      <a href="/LICENSE.txt"><small>&copy; 2014-2015 The Kollavarsham Team</small></a>
+      <a href="/LICENSE.txt">
+        <small>&copy; 2014-2015 The Kollavarsham Team</small>
+      </a>
     </p>
   </div>
 </div>

@@ -401,6 +401,7 @@ module.exports = function (grunt) {
     'build',
     'buildcontrol:pages'
   ]);
+
   grunt.registerTask('default', [
     'newer:jshint',
     'test',

@@ -12,15 +12,15 @@
   <meta name="keywords"
         content="kollavarsham, malayalam calendar, malayalam era, gregorian calendar, hindu calendar, solar months, sidereal calendar, chingam, kanni, thulam, vrischikam, dhanu, makaram, kumbham, meenam, medam, idavam, mithunam, karkitakam">
   <!--Apple Touch Icons-->
-  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-60x60.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-120x120.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-76x76.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-152x152.png"/>
   <!-- Twitter Summary Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@kollavarsham">
@@ -29,10 +29,10 @@
   <meta name="twitter:description" content="Open Source JavaScript libraries for Kolla Varsham a.k.a. Malayalam Era calendar.">
   <meta name="twitter:image" content="http://kollavarsham.org/static/images/logo.png">
   <!--Windows 8 Tile Icons-->
-  <meta name="msapplication-square70x70logo" content="images/icons/smalltile.png" />
-  <meta name="msapplication-square150x150logo" content="images/icons/mediumtile.png" />
-  <meta name="msapplication-wide310x150logo" content="images/icons/widetile.png" />
-  <meta name="msapplication-square310x310logo" content="images/icons/largetile.png" />
+  <meta name="msapplication-square70x70logo" content="images/icons/smalltile.png"/>
+  <meta name="msapplication-square150x150logo" content="images/icons/mediumtile.png"/>
+  <meta name="msapplication-wide310x150logo" content="images/icons/widetile.png"/>
+  <meta name="msapplication-square310x310logo" content="images/icons/largetile.png"/>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
@@ -65,179 +65,176 @@
   to improve your experience.</p>
 <![endif]-->
 
-<div id="wrap">
-  <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div id="wrap">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">kollavarsham.org</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/calendar">Calendar</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementations<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="/javascript.html">JavaScript</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Coming Soon</li>
+                <li><a href="#">.NET</a></li>
+                <li><a href="#">Java</a></li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/kollavarsham" target="_blank">GitHub</a></li>
+            <li><a href="mailto:info@kollavarsham.org">Contact Us</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">kollavarsham.org</a>
+
+      <div class="header">
+        <h1><img id="js-logo" src="images/js-logo.png" alt="kollavarsham js"> <em>kollavarsham js</em></h1>
+
+        <p class="lead"></p>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/calendar">Calendar</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Implementations<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li class="active"><a href="/javascript.html">JavaScript</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Coming Soon</li>
-              <li><a href="#">.NET</a></li>
-              <li><a href="#">Java</a></li>
-            </ul>
-          </li>
-          <li><a href="https://github.com/kollavarsham" target="_blank">GitHub</a></li>
-          <li><a href="mailto:info@kollavarsham.org">Contact Us</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-  </div>
 
-  <div class="container">
+      <div class="col-sm-8 article">
+        <h4>Installation</h4>
 
-    <div class="header">
-      <h1><img id="nodejs-logo" src="images/nodejs-logo.png" alt="kollavarsham js"> <em>kollavarsham js</em></h1>
+        <p>The JavaScript library has been implemented on the <a href="http://nodejs.org/">node.js</a> platform and has been published to <a
+          href="https://www.npmjs.org/package/kollavarsham">the npm (node package manager) registry</a>.</p>
 
-      <p class="lead"></p>
-    </div>
+        <p>It could be installed as a library module (a dependency) for other node.js applications:</p>
 
-    <div class="col-sm-8 article">
-      <h4>Installation</h4>
+        <pre class="prettyprint">npm install kollavarsham --save</pre>
 
-      <p>The JavaScript library has been implemented on the <a href="http://nodejs.org/">node.js</a> platform and has been published to <a
-        href="https://www.npmjs.org/package/kollavarsham">the npm (node package manager) registry</a>.</p>
+        <p><a href="http://browserify.org/">Browserify</a> is a good tool that can generate the library to be used on the client-side (or
+          browser) applications as well:</p>
 
-      <p>It could be used as a cross-platform command line application (CLI) when installed globally like this:</p>
+        <pre class="prettyprint">browserify lib/kollavarsham.js -o bundle.js</pre>
 
-      <pre class="prettyprint">npm install -g kollavarsham</pre>
+        <p>It could also be used as a cross-platform command line application (CLI) app using <a href="https://www.npmjs.com/package/kollavarsham-cli">another
+          CLI module</a> (that is essentially a wrapper over the core module), when installed globally like this:</p>
 
-      <p>Or it could also be installed as a library module (dependency) for other node.js applications:</p>
+        <pre class="prettyprint">npm install -g kollavarsham</pre>
 
-      <pre class="prettyprint">npm install kollavarsham --save</pre>
+        <h4>Usage</h4>
 
-      <p><a href="http://browserify.org/">Browserify</a> is a good tool that can generate the library to be used in client-side (or
-        browser) applications as well:</p>
-
-      <pre class="prettyprint">browserify lib/kollavarsham.js -o bundle.js</pre>
-
-      <h4>Usage</h4>
-
-      <p>To use it as commandline app:</p>
-
-      <pre class="prettyprint">kollavarsham --help</pre>
-
-      <p>And to use in a node.js or a browser app:</p>
+        <p>To use the library in a node.js or a browser app:</p>
 
         <pre class="prettyprint linenums">
-// Intended usage when the library reaches alpha - please refer the API docs
+// Refer the API docs for accurate semantics
 
 var kollavarsham = require('kollavarsham');
 var KollavarshamDate = require('kollavarsham').kollavarshamDate;
 
-var gregorianDate = kollavarsham.toGregorianDate(new KollavarshamDate(1184, 5, 18));
+var gregorianDate = kollavarsham.toGregorianDate(new KollavarshamDate(1184, 5, 18));  // Not implemented yet
 
 var kollavarshamDate = kollavarsham.fromGregorianDate(new Date(2014, 1, 14));
 </pre>
 
-      <h4>Current Status</h4>
+        <h4>Current Status</h4>
 
-      <p>Currently the library is in beta state and most of the features are working as expected (a notable exception being the ability to
-        convert a Kollavarsham date into a Gregorian date).</p>
+        <p>Currently the library is in beta state and most of the features are working as expected (a notable exception being the ability to
+          convert a Kollavarsham date into a Gregorian date).</p>
 
-      <p>The <a href="/calendar" title="Interactive Kollavarsham Calendar">calendar</a> for instance, is an interactive, AngularJS single
-        page application (<a href="https://github.com/kollavarsham/calendar">source</a>) that gets the Kollavarsham dates from a RESTful
-        service, implemented in NodeJS/ExpressJS (<a href="https://github.com/kollavarsham/calendar-api">source</a>), using this
-        kollavarsham.js module.</p>
+        <p>The <a href="/calendar" title="Interactive Kollavarsham Calendar">calendar</a> for instance, is an interactive, AngularJS single
+          page application (<a href="https://github.com/kollavarsham/calendar">source</a>) that gets the Kollavarsham dates from a RESTful
+          service, implemented in NodeJS/ExpressJS (<a href="https://github.com/kollavarsham/calendar-api">source</a>), using this
+          kollavarsham.js module.</p>
 
-      <h4>Fork us on GitHub!</h4>
+        <h4>API Documentation</h4>
 
-      <p>Fork us on GitHub and start contributing - <a href="https://github.com/kollavarsham/kollavarsham-js">kollavarsham-js
-        repository</a>.</p>
+        <p>Check out the evolving API documentation that is generated from the source using <a href="http://yui.github.io/yuidoc/">YUIDoc</a>
+          here: <a href="http://kollavarsham.org/kollavarsham-js">API documentation</a>.</p>
 
-      <h4>API Documentation</h4>
+        <h4>Gratitude</h4>
 
-      <p>Check out the evolving API documentation that is generated from the source using <a href="http://yui.github.io/yuidoc/">YUIDoc</a>
-        here: <a href="http://kollavarsham.org/kollavarsham-js">API documentation</a>.</p>
+        <p>The JavaScript implementation of the Kollavarsham API started off as a port of the Perl implementation of the
+          <a href="http://www.cc.kyoto-su.ac.jp/~yanom/pancanga/">Pancanga</a> (Hindu Almanac) by M. Fushimi and M. Yano, that is
+          accompanied by <a href="http://www.cc.kyoto-su.ac.jp/~yanom/pancanga/message313.html">a good little write-up</a> with a link
+          to <a href="http://www.cc.kyoto-su.ac.jp/~yanom/sanskrit/pancanga/pancanga3.13">their Perl script</a> as well.</p>
 
-      <h4>Gratitude</h4>
+        <p>We would like to thank Fushimi-san and Yano-san for their work on the Hindu calendar and for making it open source!</p>
 
-      <p>The JavaScript implementation of the Kollavarsham API started off as a port of the Perl implementation of the
-        <a href="http://www.cc.kyoto-su.ac.jp/~yanom/pancanga/">Pancanga</a> (Hindu Almanac) by M. Fushimi and M. Yano, that is
-        accompanied by <a href="http://www.cc.kyoto-su.ac.jp/~yanom/pancanga/message313.html">a good little write-up</a> with a link
-        to <a href="http://www.cc.kyoto-su.ac.jp/~yanom/sanskrit/pancanga/pancanga3.13">their Perl script</a> as well.</p>
+        <h4>Fork us on GitHub!</h4>
 
-      <p>We would like to thank Fushimi-san and Yano-san for their work on the Hindu calendar and for making it open source!</p>
+        <p>Fork us on GitHub and start contributing - <a href="https://github.com/kollavarsham/kollavarsham-js">kollavarsham-js
+          repository</a>.</p>
 
-    </div>
-
-    <div class="col-sm-4 sidebar">
-
-      <div class="sidebar-section">
-        <header>Contributors</header>
-        <p><a href="https://github.com/arunkutty">Arun N. Kutty</a></p>
-
-        <p><a href="https://github.com/floydpink">Hari Menon</a></p>
       </div>
 
-      <div class="sidebar-section">
-        <header>API Documentation</header>
-        <p><a href="http://kollavarsham.org/kollavarsham-js">kollavarsham-js</a></p>
-      </div>
+      <div class="col-sm-4 sidebar">
 
-      <div class="sidebar-section">
-        <header>Fork Us on GitHub!</header>
-        <p><a href="https://github.com/kollavarsham/kollavarsham-js">kollavarsham-js</a></p>
+        <div class="sidebar-section">
+          <header>Contributors</header>
+          <p><a href="https://github.com/arunkutty">Arun N. Kutty</a></p>
 
-        <p><a href="https://github.com/kollavarsham/kollavarsham-java">kollavarsham-java</a></p>
+          <p><a href="https://github.com/floydpink">Hari Menon</a></p>
+        </div>
+
+        <div class="sidebar-section">
+          <header>API Documentation</header>
+          <p><a href="http://kollavarsham.org/kollavarsham-js">kollavarsham-js</a></p>
+        </div>
+
+        <div class="sidebar-section">
+          <header>Fork Us on GitHub!</header>
+          <p><a href="https://github.com/kollavarsham/kollavarsham-js">kollavarsham-js</a></p>
+
+          <p><a href="https://github.com/kollavarsham/kollavarsham-java">kollavarsham-java</a></p>
+        </div>
+
       </div>
 
     </div>
 
   </div>
 
-</div>
-
-<div id="footer">
-  <div class="container">
-    <p class="text-muted pull-right">
-      <a href="/LICENSE.txt">
-        <small>&copy; 2014-2015 The Kollavarsham Team</small>
-      </a>
-    </p>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted pull-right">
+        <a href="/LICENSE.txt">
+          <small>&copy; 2014-2015 The Kollavarsham Team</small>
+        </a>
+      </p>
+    </div>
   </div>
-</div>
 
-<!-- build:js scripts/vendor.js -->
-<!-- bower:js -->
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/google-code-prettify/src/prettify.js"></script>
-<!-- endbower -->
-<!-- endbuild -->
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/google-code-prettify/src/prettify.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
 
-<!-- build:js scripts/plugins.js -->
-<script src="bower_components/bootstrap/js/affix.js"></script>
-<script src="bower_components/bootstrap/js/alert.js"></script>
-<script src="bower_components/bootstrap/js/dropdown.js"></script>
-<script src="bower_components/bootstrap/js/tooltip.js"></script>
-<script src="bower_components/bootstrap/js/modal.js"></script>
-<script src="bower_components/bootstrap/js/transition.js"></script>
-<script src="bower_components/bootstrap/js/button.js"></script>
-<script src="bower_components/bootstrap/js/popover.js"></script>
-<script src="bower_components/bootstrap/js/carousel.js"></script>
-<script src="bower_components/bootstrap/js/scrollspy.js"></script>
-<script src="bower_components/bootstrap/js/collapse.js"></script>
-<script src="bower_components/bootstrap/js/tab.js"></script>
-<!-- endbuild -->
+  <!-- build:js scripts/plugins.js -->
+  <script src="bower_components/bootstrap/js/affix.js"></script>
+  <script src="bower_components/bootstrap/js/alert.js"></script>
+  <script src="bower_components/bootstrap/js/dropdown.js"></script>
+  <script src="bower_components/bootstrap/js/tooltip.js"></script>
+  <script src="bower_components/bootstrap/js/modal.js"></script>
+  <script src="bower_components/bootstrap/js/transition.js"></script>
+  <script src="bower_components/bootstrap/js/button.js"></script>
+  <script src="bower_components/bootstrap/js/popover.js"></script>
+  <script src="bower_components/bootstrap/js/carousel.js"></script>
+  <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+  <script src="bower_components/bootstrap/js/collapse.js"></script>
+  <script src="bower_components/bootstrap/js/tab.js"></script>
+  <!-- endbuild -->
 
-<!-- build:js({app,.tmp}) scripts/main.js -->
-<script src="scripts/main.js"></script>
-<!-- endbuild -->
+  <!-- build:js({app,.tmp}) scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
 </body>
 </html>

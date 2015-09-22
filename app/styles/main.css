@@ -154,7 +154,7 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
     font-size : 18px;
   }
 
-  #nodejs-logo {
+  #js-logo {
     width : 120px;
   }
 
@@ -164,7 +164,7 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
 }
 
 @media screen and (max-width : 320px) {
-  #nodejs-logo {
+  #js-logo {
     width : 80px;
   }
 

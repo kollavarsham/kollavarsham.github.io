@@ -28,6 +28,10 @@
     "jshint-stylish": "~2.0.1",
     "grunt-build-control": "~0.6.0"
   },
+  "scripts": {
+    "test": "grunt test",
+    "postinstall": "bower install --config.interactive=false && cd test && bower install --config.interactive=false "
+  },
   "engines": {
     "node": ">=0.8.0"
   }

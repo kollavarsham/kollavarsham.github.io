@@ -1,53 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://kollavarsham.org/</loc>
-  <lastmod>2014-03-03T20:58:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/javascript.html</loc>
-  <lastmod>2014-03-03T20:58:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/LICENSE.txt</loc>
-  <lastmod>2014-03-03T20:58:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/classes/JulianDate.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/classes/Kollavarsham.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/classes/KollavarshamDate.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/modules/date.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/modules/kollavarsham.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/files/lib_date.js.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
-<url>
-  <loc>https://kollavarsham.org/kollavarsham-nodejs/files/lib_kollavarsham.js.html</loc>
-  <lastmod>2014-03-03T19:29:02+00:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://kollavarsham.org/</loc><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url><loc>https://kollavarsham.org</loc><lastmod>2015-09-22T16:04:22+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url><loc>https://kollavarsham.org/calendar</loc><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://kollavarsham.org/javascript.html</loc><lastmod>2015-09-22T16:04:22+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+<url><loc>https://kollavarsham.org/calendar/</loc><lastmod>2015-09-22T16:28:42+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js</loc><changefreq>daily</changefreq><priority>0.69</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.56</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/BaseDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Calculations.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Calendar.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Candrocca.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Celestial.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/JulianDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Jupiter.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Kollavarsham.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/KollavarshamDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Mars.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/MathHelper.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Mercury.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Moon.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Planet.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/PlanetarySystem.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Rahu.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/SakaDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Saturn.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Star.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Sun.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Venus.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/classes/Yuga.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/baseDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/calculations.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/calendar.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/celestial.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/julianDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/kollavarsham.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/kollavarshamDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/mathHelper.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/planetarySystem.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/planets.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/sakaDate.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/modules/yuga.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.46</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_dates_baseDate.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_calculations.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_calendar.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_celestial_planetarySystem_planets_index.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_celestial_index.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_dates_julianDate.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_index.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_dates_kollavarshamDate.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_mathHelper.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_celestial_planetarySystem_index.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_dates_sakaDate.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<url><loc>https://kollavarsham.org/kollavarsham-js/files/lib_celestial_planetarySystem_yuga.js.html</loc><lastmod>2015-09-25T13:47:31+00:00</lastmod><changefreq>daily</changefreq><priority>0.38</priority></url>
+<!-- Generated by www.web-site-map.com -->
 </urlset>

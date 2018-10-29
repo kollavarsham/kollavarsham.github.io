@@ -21,7 +21,7 @@
     "grunt-mocha": "~0.4.13",
     "grunt-modernizr": "~0.6.0",
     "grunt-newer": "~1.1.1",
-    "grunt-svgmin": "~2.0.1",
+    "grunt-svgmin": "~5.0.0",
     "grunt-concurrent": "~2.0.3",
     "load-grunt-tasks": "~3.3.0",
     "time-grunt": "~1.2.1",

@@ -1,7 +1,9 @@
+language: node_js
+node_js:
+  - "10"
 branches:
   only:
     - source
-language: node_js
 before_install:
   # Install Grunt, other npm dependencies and bower packages
   - npm install -g grunt-cli

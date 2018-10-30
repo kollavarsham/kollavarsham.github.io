@@ -1,1 +1,0 @@
-!function(a){a(function(){window.prettyPrint&&prettyPrint()})}(window.jQuery);

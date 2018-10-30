@@ -33,6 +33,6 @@
     "postinstall": "bower install --config.interactive=false && cd test && bower install --config.interactive=false "
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=10.0.0"
   }
 }

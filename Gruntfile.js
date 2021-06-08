@@ -151,14 +151,6 @@ module.exports = function (grunt) {
       }
     },
 
-    // Automatically inject Bower components into the HTML file
-    'bower-install' : {
-      app : {
-        html       : '<%= yeoman.app %>/index.html',
-        ignorePath : '<%= yeoman.app %>/'
-      }
-    },
-
     // Renames files for browser caching purposes
     rev : {
       dist : {
@@ -329,22 +321,6 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
-    },
-
-    // Deploy to master branch on GitHub
-    buildcontrol : {
-      options : {
-        dir     : 'dist',
-        commit  : true,
-        push    : true,
-        message : 'Built %sourceName% from commit %sourceCommit% on branch source [ci skip]'
-      },
-      pages   : {
-        options : {
-          remote : 'git@github.com:kollavarsham/kollavarsham.github.io.git',
-          branch : 'master'
-        }
-      }
     }
   });
 
@@ -395,11 +371,6 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin'
-  ]);
-
-  grunt.registerTask('deploy', [
-    'build',
-    'buildcontrol:pages'
   ]);
 
   grunt.registerTask('default', [

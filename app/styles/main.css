@@ -1,3 +1,11 @@
+a {
+  color: #0b80e4;
+}
+
+a:hover, a:focus {
+  color: #ef740a;
+}
+
 .social-icons {
   text-align  : justify;
   line-height : 1em;

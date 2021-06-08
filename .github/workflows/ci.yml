@@ -35,11 +35,11 @@ jobs:
       - run: bower install
 
       - run: grunt build
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/source'
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/source'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
